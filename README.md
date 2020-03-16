@@ -12,7 +12,7 @@ A Todos app, completed as an exercise to learn to TDD a Rails app
 
 * Database initialization
 
-* How to run the test suite
+* How to run the test suite: `rake`
 
 * Services (job queues, cache servers, search engines, etc.)
 
