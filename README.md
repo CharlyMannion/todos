@@ -1,11 +1,8 @@
-# README
+# TODOS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Todos app, completed as an exercise to learn to TDD a Rails app
 
-Things you may want to cover:
-
-* Ruby version
+* Ruby version: 2.5.1
 
 * System dependencies
 
