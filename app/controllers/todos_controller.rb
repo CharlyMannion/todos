@@ -1,11 +1,13 @@
 class TodosController < ApplicationController
+  # before_filter :authenticate
+
   def index
     @todos = Todo.all
   end
 
-  def show
-    @todo = Todo.find(params[:id])
-  end
+  # def show
+  #   @todo = Todo.find(params[:id])
+  # end
 
   def new
     @todo = Todo.new
