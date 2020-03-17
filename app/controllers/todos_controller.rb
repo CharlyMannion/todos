@@ -1,5 +1,5 @@
 class TodosController < ApplicationController
-  # before_filter :authenticate
+  before_action :authenticate
 
   def index
     @todos = Todo.all
