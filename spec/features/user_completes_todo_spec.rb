@@ -9,6 +9,6 @@ feature "User completes a todo" do
     click_on "Submit"
 
     click_on "Mark complete"
-    expect(page).to have_css 'todos li.completed', text: "A Todo to mark complete"
+    expect(page).to have_css '.todos li.completed', text: "A Todo to mark complete"
   end
 end
