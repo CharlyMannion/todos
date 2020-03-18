@@ -18,5 +18,6 @@ class ApplicationController < ActionController::Base
   end
 
   def current_user
+    User.new(current_email)
   end
 end
