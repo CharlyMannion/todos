@@ -4,4 +4,8 @@ module Features
     fill_in "Title", with: todo_title
     click_on "Submit"
   end
+
+  def display_todo(todo_title)
+    have_css '.todos li', text: todo_title
+  end
 end
